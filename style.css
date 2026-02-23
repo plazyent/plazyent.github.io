@@ -1,3 +1,22 @@
+/* Social Icons */
+.socials {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.socials img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.socials img:hover {
+  opacity: 1;
+}
+
 /* LUZ1.NET STYLE — TRUE ONYX MINIMAL */
 
 body {
